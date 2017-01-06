@@ -21,3 +21,9 @@ Route::get('auth/login', 'Auth\LoginController@getLogin');
 Route::post('auth/login', 'Auth\LoginController@getLogin');
 
 Route::get('auth/logout', 'Auth\LoginController@getLogout');
+
+//Registration routes
+
+Route::get('auth/register', 'Auth\RegisterController@getRegister');
+
+Route::post('auth/register', 'Auth\RegisterController@postRegister');
