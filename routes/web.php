@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// These functions come from the Illuminate\Foundation\Auth\AuthenticatesUsers package that's pulled into the LoginController method.
+Route::get('auth/login', 'Auth\LoginController@getLogin');
+
+Route::post('auth/login', 'Auth\LoginController@getLogin');
+
+Route::get('auth/logout', 'Auth\LoginController@getLogout');
