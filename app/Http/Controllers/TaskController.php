@@ -16,4 +16,11 @@ class TaskController extends Controller
     {
     	return view('tasks.index');
     }
+
+    public function store(Request $request)
+    {
+    	$this->validates($request, [
+    		'name' => 'required|max:255',
+    		]);
+    }
 }
