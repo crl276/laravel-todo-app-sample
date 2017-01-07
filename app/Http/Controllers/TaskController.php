@@ -9,15 +9,19 @@ class TaskController extends Controller
     //
 
     protected $tasks;
-    
-    public function __construct()
+
+    public function __construct(TaskRepository $tasks)
     {
     	$this->middleware('auth');
+
+        $this->tasks = $tasks;
     }
 
     public function index(Request $request)
     {
-    	return view('tasks.index');
+    	return view('tasks.index', [
+            'tasks' => $this->tasks->forUser($request->user()),
+            ]);
     }
 
     public function store(Request $request)
