@@ -27,3 +27,12 @@ Route::get('auth/logout', 'Auth\LoginController@logout');
 Route::get('auth/register', 'Auth\RegisterController@showRegistrationForm');
 
 Route::post('auth/register', 'Auth\RegisterController@register');
+
+//Task Routes
+
+Route::get('/tasks', 'TaskController@index');
+
+Route::get('/task', 'TaskController@store');
+
+Route::delete('/task/{task}', 'TaskController@destroy');
+
