@@ -35,4 +35,3 @@ Route::get('/tasks', 'TaskController@index');
 Route::get('/task', 'TaskController@store');
 
 Route::delete('/task/{task}', 'TaskController@destroy');
-
