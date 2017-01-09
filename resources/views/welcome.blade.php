@@ -75,15 +75,14 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Callan's ToDo List
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
+                    <a href="https://github.com/crl276">Callan's Github</a>
+                    <a href="https://www.linkedin.com/in/callan-lamb-11a036a6">LinkedIn</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>
         </div>
