@@ -83,6 +83,7 @@
                     <a href="https://www.linkedin.com/in/callan-lamb-11a036a6">LinkedIn</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://forge.laravel.com">Forge</a>
+                    <a href="{{ url('/login/') }}">Login</a>
                 </div>
             </div>
         </div>

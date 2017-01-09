@@ -65,6 +65,7 @@
                                                     <i class="fa fa-btn fa-trash"></i>Delete this task
                                                 </button>
                                             </form>
+                                            <
                                         </td>
                                     </tr>
                                 @endforeach
